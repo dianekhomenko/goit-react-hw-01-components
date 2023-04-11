@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export const Profile = ({ user: { username, tag, location, avatar, stats } }) => {
   return (
-    <div className="profile">
+    <div className="profile container" key = {tag}>
       <div className="description">
         <img src={avatar} alt={username} className="avatar" />
         <p className="name">{username}</p>

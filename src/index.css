@@ -80,3 +80,34 @@ code {
   margin-top: 2px;
   margin-bottom: 2px;
 }
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  background-color: aliceblue;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.stat-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.item .label {
+  color: white;
+}
