@@ -9,6 +9,7 @@ export const App = () => {
       {user.map((user, idx) => (
         <Profile key={idx} user={user} />
       ))}
+      
       <Statistics title="Upload stats" stats={statisticsData} />
     </>
 
