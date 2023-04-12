@@ -1,10 +1,15 @@
 .online {
-    content: ' ';
-    background-color: green;
-    width: 6px;
-    height: 6px;
+    color: green;
 }
 
 .offline {
-    background-color: red;
+   color: red;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
