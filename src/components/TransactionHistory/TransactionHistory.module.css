@@ -1,0 +1,19 @@
+.transactionHistory {
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 60px;
+}
+
+.row {
+    background-color: white;
+    padding: 10px;
+}
+
+.header {
+    background-color: darkkhaki;
+    padding: 10px;
+}
