@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import css from 'components/Statistics/Statistics.module.css';
+import {Stat} from 'components/Statistics/Statistics.styled.js'
 
 export const Statistics = ({ title, stats }) => {
   return (
@@ -7,16 +8,14 @@ export const Statistics = ({ title, stats }) => {
       {title ? <h2 className="title">{title}</h2> : null}
       <ul className={css.statList}>
         {stats.map(stat => (
-          <li
+          <Stat
             className={css.item}
             key={stat.id}
-            style={{
-              backgroundColor: getRandomHexColor(),
-            }}
+            $type={stat.label}
           >
             <span className={css.label}>{stat.label}</span>
             <span className={css.percentage}>{stat.percentage}%</span>
-          </li>
+          </Stat>
         ))}
       </ul>
     </section>
