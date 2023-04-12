@@ -1,0 +1,10 @@
+.online {
+    content: ' ';
+    background-color: green;
+    width: 6px;
+    height: 6px;
+}
+
+.offline {
+    background-color: red;
+}
